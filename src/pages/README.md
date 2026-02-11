@@ -1,0 +1,1 @@
+This directory contains top-level page components that correspond to application routes. Each file represents a distinct view or screen in the application, such as a home page, login page, or dashboard page. Page components compose layout and feature components together and are referenced directly in the router configuration.

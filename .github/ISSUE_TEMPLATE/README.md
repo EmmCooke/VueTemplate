@@ -1,0 +1,1 @@
+This directory contains GitHub issue templates that standardize how team members create issues in the repository. Templates are provided for different issue types such as epics, stories, and tasks, ensuring that each issue includes the necessary context, acceptance criteria, and metadata for effective project tracking and prioritization.

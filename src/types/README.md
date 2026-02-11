@@ -1,0 +1,1 @@
+This directory contains shared TypeScript type definitions, interfaces, and enums used across the application. Centralizing types here ensures consistency and avoids duplication when multiple components, stores, or composables need to reference the same data shapes. File names should reflect the domain they describe, such as `user.ts` or `api.ts`.

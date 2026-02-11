@@ -1,0 +1,1 @@
+This directory contains components specific to the settings feature, such as profile editors, preference toggles, account management forms, and other configuration-related UI elements. These components handle user-facing settings interactions and are typically used within the settings pages.

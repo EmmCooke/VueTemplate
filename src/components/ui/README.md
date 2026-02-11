@@ -1,0 +1,1 @@
+This directory contains primitive, generic UI components that serve as the foundational building blocks of the application's interface. These include components like BaseButton, BaseInput, BaseModal, and BaseCard. They are intentionally unstyled or minimally styled, carry no business logic, and are designed to be composed into more complex components throughout the application.

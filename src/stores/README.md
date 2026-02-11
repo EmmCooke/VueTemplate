@@ -1,0 +1,1 @@
+This directory contains Pinia stores that manage the application's global state. Each store is defined in its own file and encapsulates a specific domain of state along with its getters and actions. Stores provide reactive, centralized state management that can be accessed from any component or composable in the application.

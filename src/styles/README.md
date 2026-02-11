@@ -1,0 +1,1 @@
+This directory contains global stylesheets, CSS custom properties (variables), mixins, and shared style utilities. These files define the application's design tokens such as colors, spacing, typography, and breakpoints. Global styles are imported at the application entry point and provide a consistent visual foundation that component-scoped styles build upon.

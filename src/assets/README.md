@@ -1,0 +1,1 @@
+This directory contains static assets used throughout the application, including images, fonts, SVGs, and other media files. Assets placed here are processed by the Vite build pipeline, enabling features like hashing for cache-busting and optimization. Reference these files in components using relative imports or the `@/assets` alias.

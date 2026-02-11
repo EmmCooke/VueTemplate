@@ -1,0 +1,1 @@
+This directory contains end-to-end tests written using Playwright that verify the application's behavior from the user's perspective. These tests run against the full application in a browser environment, simulating real user interactions such as clicking, typing, and navigating between pages. Test files should be organized by feature or user flow.

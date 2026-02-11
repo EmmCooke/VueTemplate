@@ -1,0 +1,1 @@
+This directory contains Vue plugins that extend the application's functionality at the global level. Plugins are registered during app initialization and can add global components, directives, provide/inject values, or configure third-party libraries. Each plugin should export an install function following the standard Vue plugin interface.

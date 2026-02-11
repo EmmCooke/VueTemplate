@@ -1,0 +1,1 @@
+This directory contains feature-specific components organized into subdirectories by domain, such as auth, dashboard, and settings. Each subdirectory groups the components that are unique to a particular feature area of the application. Unlike the generic `ui` components, these components may contain business logic and are typically not reused outside their feature context.

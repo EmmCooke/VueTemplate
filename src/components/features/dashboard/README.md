@@ -1,0 +1,1 @@
+This directory contains components specific to the dashboard feature, including widgets, summary cards, charts, and other dashboard-related UI elements. These components are designed to display aggregated data and key metrics, and are primarily composed together within the dashboard page.

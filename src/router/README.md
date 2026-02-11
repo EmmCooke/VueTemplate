@@ -1,0 +1,1 @@
+This directory contains the Vue Router configuration, including route definitions, navigation guards, and any route-related helper functions. The router maps URL paths to page components, manages navigation history, and enforces access control through route guards such as authentication checks.

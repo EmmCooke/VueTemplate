@@ -1,0 +1,1 @@
+This directory contains utility functions, constants, and helper modules used throughout the application. These are pure, framework-agnostic functions and values such as formatters, validators, API client configurations, and shared constants. Files here should not depend on Vue-specific APIs; use composables for reactive logic instead.

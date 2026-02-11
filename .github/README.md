@@ -1,0 +1,1 @@
+This directory contains GitHub-specific configuration files, including CI/CD workflow definitions, issue templates, and pull request templates. These files automate repository processes such as continuous integration, deployment pipelines, and standardized issue and PR creation through GitHub Actions and built-in GitHub features.

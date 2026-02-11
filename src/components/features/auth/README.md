@@ -1,0 +1,1 @@
+This directory contains components specific to the authentication feature, such as login forms, registration forms, password reset flows, and other auth-related UI elements. These components handle user-facing authentication interactions and are typically used within the auth-related pages.

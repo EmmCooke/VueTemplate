@@ -1,0 +1,1 @@
+This directory contains GitHub Actions workflow definitions that automate the project's CI/CD pipelines. These YAML files define jobs for tasks such as linting, running unit and end-to-end tests, building the application, and deploying to staging or production environments. Workflows are triggered by events like pushes, pull requests, or manual dispatch.

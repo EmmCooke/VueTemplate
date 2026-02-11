@@ -1,0 +1,1 @@
+This directory contains reusable Composition API functions (composables) that encapsulate and share stateful logic across components. Examples include useAuth for authentication state, useDebounce for debounced value handling, and useFetch for data fetching. Each composable should be a single function exported from its own file, following the `use` naming convention.

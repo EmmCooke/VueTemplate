@@ -1,0 +1,1 @@
+This directory contains layout components that define the structural arrangement of the application's pages. These include components like AppHeader, AppFooter, and AppLayout, which provide consistent navigation, framing, and page structure. Layout components are typically used in route definitions or at the top level of page components to wrap content in a shared shell.

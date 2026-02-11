@@ -1,0 +1,1 @@
+This directory contains custom Vue directives that provide reusable, low-level DOM manipulation logic. Directives are useful for behaviors like click-outside detection, tooltip attachment, focus management, or intersection observation. Each directive should be defined in its own file and registered either globally via a plugin or locally within specific components.

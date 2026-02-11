@@ -1,0 +1,1 @@
+This directory contains all reusable Vue UI components, organized into subdirectories by responsibility. The `ui` folder holds primitive, generic components; `layout` holds structural layout components; and `features` holds domain-specific components grouped by feature area. Components here should be designed for reuse and composed together to build pages.

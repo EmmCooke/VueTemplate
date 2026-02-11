@@ -1,6 +1,14 @@
 import { createRouter, createWebHistory } from "vue-router";
 import type { RouteRecordRaw } from "vue-router";
 import { useAuthStore } from "@/stores/auth";
+import { APP_TITLE } from "@/lib/constants";
+
+declare module "vue-router" {
+  interface RouteMeta {
+    title?: string;
+    requiresAuth?: boolean;
+  }
+}
 
 const routes: RouteRecordRaw[] = [
   {
@@ -18,6 +26,12 @@ const routes: RouteRecordRaw[] = [
         name: "dashboard",
         component: () => import("@/pages/DashboardPage.vue"),
         meta: { title: "Dashboard", requiresAuth: true },
+      },
+      {
+        path: "settings",
+        name: "settings",
+        component: () => import("@/pages/SettingsPage.vue"),
+        meta: { title: "Settings", requiresAuth: true },
       },
     ],
   },
@@ -47,9 +61,9 @@ const router = createRouter({
 router.beforeEach((to) => {
   const authStore = useAuthStore();
 
-  document.title = `${(to.meta["title"] as string) ?? "App"} — Vue Template`;
+  document.title = `${to.meta.title ?? "App"} — ${APP_TITLE}`;
 
-  if (to.meta["requiresAuth"] && !authStore.isAuthenticated) {
+  if (to.meta.requiresAuth && !authStore.isAuthenticated) {
     return { name: "login", query: { redirect: to.fullPath } };
   }
 

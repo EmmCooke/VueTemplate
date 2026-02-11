@@ -1,24 +1,35 @@
 <script setup lang="ts">
-defineProps<{
+import { computed } from "vue";
+
+const props = defineProps<{
   label?: string;
   error?: string;
-  type?: string;
+  type?: "text" | "password" | "email" | "number" | "tel" | "url" | "search";
   placeholder?: string;
 }>();
 
 const modelValue = defineModel<string>({ required: true });
+
+const inputId = computed(
+  () => `input-${props.label?.toLowerCase().replace(/\s+/g, "-") ?? "field"}`,
+);
 </script>
 
 <template>
   <div class="base-input">
-    <label v-if="label" class="base-input__label">{{ label }}</label>
+    <label v-if="label" :for="inputId" class="base-input__label">
+      {{ label }}
+    </label>
     <input
+      :id="inputId"
       v-model="modelValue"
       :type="type ?? 'text'"
       :placeholder="placeholder"
       :class="['base-input__field', { 'base-input__field--error': error }]"
     />
-    <span v-if="error" class="base-input__error">{{ error }}</span>
+    <span v-if="error" class="base-input__error">
+      {{ error }}
+    </span>
   </div>
 </template>
 
